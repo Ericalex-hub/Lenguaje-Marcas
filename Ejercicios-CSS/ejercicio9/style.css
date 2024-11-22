@@ -1,0 +1,24 @@
+header {
+    border: solid;
+    width: 100%;
+    text-align: center;
+}
+.cont {
+    display: flex;
+    justify-content: space-around;
+}
+.anch-plus {
+    border: solid;
+    width: 75%;
+}
+.anch-menos {
+    border: solid;
+    width: 25%;
+}
+p {
+    width: 100%;
+}
+body {
+    background: linear-gradient(220.55deg, #A531DC 0%, #4300B1 100%);
+    color: white;
+}
