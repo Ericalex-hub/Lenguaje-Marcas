@@ -19,6 +19,6 @@ p {
     width: 100%;
 }
 body {
-    background: linear-gradient(220.55deg, #A531DC 0%, #4300B1 100%);
+    background: Linear-gradient(45deg, #A531DC 10%, #4300B1 100%);
     color: white;
 }
