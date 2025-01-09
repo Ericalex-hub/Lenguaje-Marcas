@@ -1,49 +1,25 @@
 .cabe {
-    background-color: chocolate;
+    background-color: rgb(210, 30, 30);
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    align-content: center;
     width: 100%;
     height: 100px;
     margin: 0 0 10px;
 }
-.cabe p {
-    margin: 30px;
-    float: left;
-    border: solid white;
-    width: 400px;
-    height: 36px;
-    font-size: 30px;
-}
 img {
-    float: right;
-    width: 50px;
-    margin: 25px;
-    border: solid white;
+    float: none;
+    width: 400px;
+    margin: none;
+    border: solid black 2px;
 }
-div .par1 {
-    flex-wrap: nowrap;
+.par1 {
     background-color: aquamarine;
-    float: left;
-    margin: 0px;
-}
-.par1 p, h1{
-    margin: 20px;
-}
-.par1 p{
-    margin: 20px;
-}
-div .par2 {
-    margin: 0px;
-    float: right;
-    background-color: bisque;
-    height: 750px;
-    width: 200px;
-}
-.par2 p {
-    margin: 20px;
-}
-.cont {
-    display: flex;
-    gap: 10px;
-    margin: 0 0 10px;
+    width: 100%;
+    height: 200px;
+    overflow: scroll;
 }
 .pie {
     font-size: 25px;
@@ -65,10 +41,11 @@ div .par2 {
     color: black;
 
 }
+/*
 body {
     animation: slider 12s linear infinite;
 }
-/*
+
 @keyframes slider {
     0% {background-color: rgb(255, 0, 0);}
     25% {background-color: rgb(191, 0, 255);}
