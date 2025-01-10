@@ -19,7 +19,6 @@ img {
     border: solid white;
 }
 div .par1 {
-    flex-wrap: nowrap;
     background-color: aquamarine;
     float: left;
     margin: 0px;
